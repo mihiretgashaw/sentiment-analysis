@@ -1,20 +1,31 @@
-<<<<<<< HEAD
-# Python virtual environments
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
 venv/
 
 # Jupyter Notebook checkpoints
 **/.ipynb_checkpoints/
 
-# VSCode settings
+# Executable files
+*.exe
+
+# IDE/Editor specific files
 .vscode/
 
-# OS-specific files
+# Operating system generated files
 .DS_Store
 Thumbs.db
 
-# Byte-compiled / cache files
-__pycache__/
-*.py[cod]
+# Log files
+*.log
+
+# Temporary/Swap files
+*.tmp
+*.swp
+*~
+*.bak
 
 # Distribution / packaging
 *.egg
@@ -22,14 +33,6 @@ __pycache__/
 dist/
 build/
 *.whl
-
-# Logs and temp files
-*.log
-*.tmp
-*.bak
-
-# Installer files
-*.exe
 
 # Data files
 *.csv
@@ -47,32 +50,3 @@ build/
 *.tar.gz
 *.zip
 *.pkl
-=======
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Virtual environment
-venv/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# exe files
-*.exe
-
-# IDE/Editor specific files
-.vscode/ # VS Code settings and temporary files
-
-# Operating system generated files
-.DS_Store # macOS specific
-Thumbs.db # Windows specific
-
-# Log files
-*.log
-
-# Temporary/Swap files
-*.tmp
-*.swp
-*~ # Emacs backup files
->>>>>>> task-1
