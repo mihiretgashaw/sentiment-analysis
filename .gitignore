@@ -8,6 +8,8 @@ venv/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# exe files
+*.exe
 
 # IDE/Editor specific files
 .vscode/ # VS Code settings and temporary files
