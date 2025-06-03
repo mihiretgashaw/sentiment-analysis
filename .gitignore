@@ -1,0 +1,48 @@
+# Python virtual environments
+venv/
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Installer files
+*.exe
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# Images and charts
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# TA-Lib and other large binaries
+*.tar.gz
+*.zip
+*.pkl
