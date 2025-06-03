@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python virtual environments
 venv/
 
@@ -46,3 +47,32 @@ build/
 *.tar.gz
 *.zip
 *.pkl
+=======
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# exe files
+*.exe
+
+# IDE/Editor specific files
+.vscode/ # VS Code settings and temporary files
+
+# Operating system generated files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Log files
+*.log
+
+# Temporary/Swap files
+*.tmp
+*.swp
+*~ # Emacs backup files
+>>>>>>> task-1
